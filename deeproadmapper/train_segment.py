@@ -17,7 +17,7 @@ sat_path = sys.argv[1]
 osm_path = sys.argv[2]
 model_path = sys.argv[3]
 
-print 'loading train tiles'
+#print 'loading train tiles'
 train_tiles = dataset.load_tiles(sat_path, osm_path, 'train')
 
 random.shuffle(train_tiles)
